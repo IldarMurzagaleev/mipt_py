@@ -4,7 +4,7 @@ import tempfile
 import json
 from json.decoder import JSONDecodeError
 
-storage_path = os.path.join(tempfile.gettempdir(), 'storage6.data')
+storage_path = os.path.join(tempfile.gettempdir(), 'storage.data')
 parser = argparse.ArgumentParser()
 parser.add_argument("--key")
 parser.add_argument("--value")
